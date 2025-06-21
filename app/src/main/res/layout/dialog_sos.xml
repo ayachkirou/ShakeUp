@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisir un message SOS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioHelpMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help me"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioInDanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm in danger"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioScared"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm scared"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioNeedHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I need help"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioSaveMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please save me"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmer"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/btnHistorique"
+            android:icon="@drawable/home"
+            android:title="Accueil" />
+
+        <item
+            android:id="@+id/btncheck"
+            android:icon="@drawable/check"
+            android:title="Check" />
+
+        <item
+            android:id="@+id/idContact"
+            android:icon="@drawable/call"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/btnProfil"
+            android:icon="@drawable/profile"
+            android:title="Profil" />
+
+</menu>
